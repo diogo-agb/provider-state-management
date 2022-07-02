@@ -45,7 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     CounterProvider provider = context.read<CounterProvider>();
 
-    if (kDebugMode) print('REBUILD'); //Test
+    if (kDebugMode) print('build: Scaffold'); //Test
 
     return Scaffold(
       appBar: AppBar(
